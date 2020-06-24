@@ -7,7 +7,7 @@
    **The objective is to learn Pytorch along with implementing the deep learning architecture like vanilla RNN, BiLSTM, FastText architecture for Sentence Classification with Custom dataset using torchtext.**
 
 ### Vanilla RNN Pointers
-  * Novel Architecture for sequence modeling.
+  * Novel architecture for Sequence Modeling.
   * Major difference between vanilla neural network and RNN - Input to hidden layer at time step (t) is combination of input (x_t) and hidden units from previous 
     time step (h_t-1).
   * Problem with vanilla RNN is Vanishing Gradient, during backpropagation the gradients tends to become very small and the model tend lose learned parameters.
@@ -22,6 +22,12 @@
     * First, sequence of words from first word and last word, it has its parameters like hidden and cell units.
     * Second, sequence of words from last word and first word, it has parameters like hidden and cell units.
   * The prediction happens on the output of both hidden units. f(h_f_t, h_b_t), forward(f) and backward(b).
+
+### CNN Pointers
+  * CNN architecture is widely used for Image classification.
+  * We are leveraging the filter/kernel mechanism from CNN for feature extraction.
+  * For Images, the channel of the images acts as first dimension, its value is 3 for color images. Since text is 1D, we have 1 channel.
+  * Here, we use filter based on n-gram i.e. for extracting key bi-grams, we use 1x2 dimension. 1 represents text dimension. 
 
 ### Learning Curve
 
