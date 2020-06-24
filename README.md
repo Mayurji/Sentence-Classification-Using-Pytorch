@@ -4,7 +4,7 @@
 
 ### Objective 
     
-    The objective is to learn Pytorch along with implementing the deep learning architecture like vanilla RNN, BiLSTM, FastText architecture for Sentence Classification with Custom dataset using torchtext.
+   **The objective is to learn Pytorch along with implementing the deep learning architecture like vanilla RNN, BiLSTM, FastText architecture for Sentence Classification with Custom dataset using torchtext.**
 
 ### Vanilla RNN Pointers
   * Novel Architecture for sequence modeling.
