@@ -21,7 +21,7 @@
   * Bidirectional means the model takes in two RNN layers of input:
     * First, sequence of words from first word and last word, it has its parameters like hidden and cell units.
     * Second, sequence of words from last word and first word, it has parameters like hidden and cell units.
-  * The prediction happens on the output of both hidden units. F(h_f_t, h_b_t), forward(f) and backward(b).
+  * The prediction happens on the output of both hidden units. f(h_f_t, h_b_t), forward(f) and backward(b).
   
 
 ### Dataset
