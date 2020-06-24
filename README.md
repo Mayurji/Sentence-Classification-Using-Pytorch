@@ -23,7 +23,10 @@
     * Second, sequence of words from last word and first word, it has parameters like hidden and cell units.
   * The prediction happens on the output of both hidden units. F(h_f_t, h_b_t), forward(f) and backward(b).
   
-      
+
+### Dataset
+   ![Kaggle - Real or Not? NLP with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started)
+    
         To be continued
     
    
